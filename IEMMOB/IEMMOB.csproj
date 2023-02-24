@@ -1,0 +1,89 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IEMMOB_DataModel\**" />
+    <Compile Remove="IEMMOB_Model\**" />
+    <Compile Remove="IEMMOB_Service\**" />
+    <Content Remove="IEMMOB_DataModel\**" />
+    <Content Remove="IEMMOB_Model\**" />
+    <Content Remove="IEMMOB_Service\**" />
+    <EmbeddedResource Remove="IEMMOB_DataModel\**" />
+    <EmbeddedResource Remove="IEMMOB_Model\**" />
+    <EmbeddedResource Remove="IEMMOB_Service\**" />
+    <None Remove="IEMMOB_DataModel\**" />
+    <None Remove="IEMMOB_Model\**" />
+    <None Remove="IEMMOB_Service\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\CmnFunctions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\IEMMOB.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\IEMMOB.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\IEMMOB.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Properties\launchSettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\System.Web.Mvc.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\System.Web.Razor.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\System.Web.WebPages.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Controllers\EProcure\" />
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB_DataModel.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB_DataModel.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB_Model.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB_Model.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB_Service.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\IEMMOB_Service.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Debug\netcoreapp3.1\System.Web.Mvc.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Web.Razor.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Web.WebPages.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="IEMMOB_DataModel\IEMMOB_DataModel.csproj" />
+    <ProjectReference Include="IEMMOB_Model\IEMMOB_Model.csproj" />
+    <ProjectReference Include="IEMMOB_Service\IEMMOB_Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

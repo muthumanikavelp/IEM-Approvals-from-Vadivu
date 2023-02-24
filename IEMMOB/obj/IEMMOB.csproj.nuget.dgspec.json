@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB.csproj": {}
+  },
+  "projects": {
+    "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB.csproj",
+        "projectName": "IEMMOB",
+        "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\bin\\Debug\\netcoreapp3.1": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_DataModel\\IEMMOB_DataModel.csproj": {
+                "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_DataModel\\IEMMOB_DataModel.csproj"
+              },
+              "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj": {
+                "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj"
+              },
+              "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Service\\IEMMOB_Service.csproj": {
+                "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Service\\IEMMOB_Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_DataModel\\IEMMOB_DataModel.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_DataModel\\IEMMOB_DataModel.csproj",
+        "projectName": "IEMMOB_DataModel",
+        "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_DataModel\\IEMMOB_DataModel.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj": {
+                "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj",
+        "projectName": "IEMMOB_Model",
+        "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Service\\IEMMOB_Service.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Service\\IEMMOB_Service.csproj",
+        "projectName": "IEMMOB_Service",
+        "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Service\\IEMMOB_Service.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_DataModel\\IEMMOB_DataModel.csproj": {
+                "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_DataModel\\IEMMOB_DataModel.csproj"
+              },
+              "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj": {
+                "projectPath": "D:\\Vadivu\\IEM-Mobile\\IEMMOB\\IEMMOB_Model\\IEMMOB_Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
